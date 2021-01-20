@@ -1,0 +1,6 @@
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const REGISTER = 'REGISTER'
+export const SET_LOGIN = 'SET_LOGIN'
+export const SET_REGISTER = 'SET_REGISTER'
+export const CLEAR_FIELDS = 'CLEAR_FIELDS'

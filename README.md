@@ -14,5 +14,4 @@
 - What about responsive? 
 - Hmm... What is dead may never die.
 ```
-...
 ![](./mandalorian.jpg)
