@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/LN-React/static/css/main.4b9f3fda.chunk.css",
+    "main.js": "/LN-React/static/js/main.03893659.chunk.js",
+    "main.js.map": "/LN-React/static/js/main.03893659.chunk.js.map",
+    "runtime-main.js": "/LN-React/static/js/runtime-main.25b62fc0.js",
+    "runtime-main.js.map": "/LN-React/static/js/runtime-main.25b62fc0.js.map",
+    "static/js/2.cef2fc39.chunk.js": "/LN-React/static/js/2.cef2fc39.chunk.js",
+    "static/js/2.cef2fc39.chunk.js.map": "/LN-React/static/js/2.cef2fc39.chunk.js.map",
+    "static/js/3.208ee2aa.chunk.js": "/LN-React/static/js/3.208ee2aa.chunk.js",
+    "static/js/3.208ee2aa.chunk.js.map": "/LN-React/static/js/3.208ee2aa.chunk.js.map",
+    "index.html": "/LN-React/index.html",
+    "static/css/main.4b9f3fda.chunk.css.map": "/LN-React/static/css/main.4b9f3fda.chunk.css.map",
+    "static/js/2.cef2fc39.chunk.js.LICENSE.txt": "/LN-React/static/js/2.cef2fc39.chunk.js.LICENSE.txt",
+    "static/media/profile.module.scss": "/LN-React/static/media/archi.0f83cf79.jpg",
+    "static/media/home.module.scss": "/LN-React/static/media/map-image.3cd6dd98.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25b62fc0.js",
+    "static/js/2.cef2fc39.chunk.js",
+    "static/css/main.4b9f3fda.chunk.css",
+    "static/js/main.03893659.chunk.js"
+  ]
+}
