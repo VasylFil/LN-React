@@ -4,8 +4,11 @@ import Input from "../UI/Input/Input";
 import {validation} from "../../../functions/validation";
 
 function Register(props){
-    const emailValue = localStorage.getItem('email')
-    const emailField = props.state.form.register.findIndex( field => field.type === 'email')
+    const
+        emailValue = localStorage.getItem('email')
+    const
+        emailField = props.state.form.register.findIndex( field => field.type === 'email')
+
     if (emailValue && emailField){
         props.state.form.register[emailField].value = emailValue
         props.state.form.register[emailField].changed = true
@@ -14,7 +17,8 @@ function Register(props){
 
     const submitHandler = event => {
         event.preventDefault()
-        const isValid = props.state.form.register.every( field => field.valid)
+        const
+            isValid = props.state.form.register.every( field => field.valid)
         if (!isValid){
             return false
         }
@@ -28,7 +32,8 @@ function Register(props){
     }
 
     const changeHandler = (index, value) => {
-        const item = props.state.form.register[index]
+        const
+            item = props.state.form.register[index]
         item.value = value
         item.changed = !!value;
         item.valid = validation(item.value, item.validation)

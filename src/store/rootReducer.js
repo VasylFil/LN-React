@@ -1,8 +1,9 @@
 import {initialState} from "./initialState";
-import {CLEAR_FIELDS, LOGIN, LOGOUT, REGISTER, SET_LOGIN, SET_REGISTER} from "./actions";
+import {CLEAR_FIELDS, LOGIN, LOGOUT, REGISTER, SET_LOGIN, SET_REGISTER, SET_FAV} from "./actions";
 
 function rootReducer(state = initialState, action){
     const newState = state => JSON.parse(JSON.stringify(state))
+
     switch (action.type){
         case LOGIN:
             state.isLoggedIn = true
@@ -40,6 +41,10 @@ function rootReducer(state = initialState, action){
                     item.changed = false
                 }
             )
+            return newState(state)
+
+        case SET_FAV:
+            state.markets[action.payload].fav = !state.markets[action.payload].fav
             return newState(state)
 
         default:
